@@ -16,7 +16,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
     <style>
         .container {
@@ -24,21 +25,42 @@
             background-color: #F7F7F7;
             /*background-image: url(img/bkgd.png);*/
             background-repeat: repeat-y;
+
         }
 
         img {
             width: 100%;
         }
+
+
+        /*    .containerDesktop {
+            max-width: 1440px;
+            margin: auto;
+        }
+
+        .containerTablet {
+            max-width: 720px;
+            margin: auto;
+        }
+
+        .containerMobile{
+            max-width: 375px;
+            margin: auto;
+        } */
     </style>
 </head>
 
 <body>
 
+    <!--     <div>
+        <button type="button" id="mobile">Mobile</button>
+        <button type="button" id="tablet">Tablet</button>
+        <button type="button" id="desktop">Desktop</button>
+    </div> -->
 
 
     <main class="container">
-
-        <section class="row ">
+        <header class="row ">
 
             <div class="col-sm-6 marg align-self-center topotxt ">
                 <img class="img-fluid tam anitopologo" src="img/Logo-topo.png"
@@ -62,7 +84,7 @@
             </div>
 
 
-        </section>
+        </header>
 
 
         <section class="row boxcolor0 mt-5 ">
@@ -199,7 +221,23 @@
         </footer>
         <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/bootstrap.js"></script> -->
+        
+        <!--   <script>
+        const responsive = document.querySelector('main')
+    
 
+        document.querySelectorAll('button').forEach(function (button) {
+            button.addEventListener('click', function (ev) {
+
+                console.log(ev);
+                console.log(ev.currentTarget);
+                console.log(ev.target.innerText);
+                responsive.className = `container${ev.target.innerText}`
+
+
+            });
+        });
+    </script> -->
     </main>
 </body>
 
