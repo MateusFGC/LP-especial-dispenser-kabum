@@ -62,9 +62,9 @@ Demonstração de domínio do framework Bootstrap para agilizar o desenvolviment
 ## 👨‍💻 Autor
 Desenvolvido por Mateus F.G.C.
 
-LinkedIn: https://www.linkedin.com/in/mateusfgc/
+LinkedIn: [https://www.linkedin.com/in/mateusfgc/](https://www.linkedin.com/in/mateus-fgc/)
 
-GitHub: https://github.com/MateusFGC
+GitHub: [https://github.com/MateusFGC](https://github.com/MateusFGC/)
 
 ---
 
