@@ -59,6 +59,15 @@ Demonstração de domínio do framework Bootstrap para agilizar o desenvolviment
 
 ---
 
+## 👨‍💻 Autor
+Desenvolvido por Mateus F.G.C.
+
+LinkedIn: https://www.linkedin.com/in/mateusfgc/
+
+GitHub: https://github.com/MateusFGC
+
+---
+
 ## 📂 Como Executar o Projeto Localmente
 
 Não é necessário nenhum *build* ou instalação complexa.
@@ -71,3 +80,6 @@ git clone [https://github.com/MateusFGC/LP-especial-dispenser-kabum.git](https:/
 cd LP-especial-dispenser-kabum
 
 # 3. Abra o arquivo `index.html` no seu navegador de preferência.
+
+
+
